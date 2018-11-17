@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_bg"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="263dp"
+        android:layout_height="320dp"
+        android:background="@drawable/mask_ripple"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/welcom"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/oval"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/main_button_ripple"
+        android:onClick="GoToNavi"
+        android:text="@string/button"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+        android:textColor="#ddd"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:visibility="visible"
+
+        android:theme="@style/ButtonStyle"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.512" />
+
+</android.support.constraint.ConstraintLayout>
