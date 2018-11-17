@@ -32,7 +32,9 @@
         style="@style/oval"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="32dp"
+
         android:background="@drawable/main_button_ripple"
+
         android:onClick="GoToNavi"
         android:text="@string/button"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
@@ -41,7 +43,6 @@
         android:gravity="center"
         android:visibility="visible"
 
-        android:theme="@style/ButtonStyle"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

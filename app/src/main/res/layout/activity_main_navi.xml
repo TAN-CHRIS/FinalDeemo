@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainNaviActivity"
-    >
+    android:background="@drawable/navi_bg"
+    tools:context=".MainNaviActivity">
 
     <Button
         android:id="@+id/eye_keeper"
@@ -18,14 +18,15 @@
         android:gravity="center"
         android:onClick="GoToMedia"
         android:text="@string/eye_keeper"
+        android:textColor="#999"
 
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintHorizontal_bias="0.711"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/check_in"
@@ -40,14 +41,15 @@
         android:gravity="center"
         android:onClick="GoToCheckIn"
         android:text="@string/check_in"
+        android:textColor="#999"
 
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594" />
+        app:layout_constraintVertical_bias="0.581" />
 
     <Button
         android:id="@+id/log_in"
@@ -63,13 +65,14 @@
         android:background="@drawable/mask_ripple_3"
         android:gravity="center"
         android:onClick="GoTOLogIn"
+        android:textColor="#999"
 
         android:text="@string/log_in"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.869" />
+        app:layout_constraintVertical_bias="0.0" />
 </android.support.constraint.ConstraintLayout>
